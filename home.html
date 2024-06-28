@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Program Web Sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Program Web Sederhana</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h2>Selamat Datang di Program Web Sederhana</h2>
+            <p>Ini adalah contoh halaman web sederhana menggunakan HTML, CSS, dan JavaScript.</p>
+        </section>
+
+        <section class="content">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah sebuah tim yang berfokus pada pengembangan aplikasi web dan teknologi terkini.</p>
+        </section>
+
+        <section class="services">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li>Desain Web</li>
+                <li>Pengembangan Aplikasi</li>
+                <li>Konsultasi IT</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Jika Anda tertarik dengan layanan kami, silakan hubungi kami melalui formulir kontak di bawah ini.</p>
+            <form id="contactForm" action="#">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <div id="response"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hak Cipta &copy; 2024 Program Web Sederhana.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
